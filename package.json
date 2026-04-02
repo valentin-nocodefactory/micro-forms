@@ -1,0 +1,9 @@
+{
+  "name": "ncf-diagnostic-admin",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "seed": "wrangler kv bulk put seed.json --namespace-id=961cc52ee98340b49a0d2a3f9a3c01da --remote"
+  }
+}

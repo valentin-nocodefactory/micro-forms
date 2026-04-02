@@ -1,0 +1,11 @@
+name = "ncf-diagnostic-admin"
+main = "src/worker.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+# Définir ADMIN_TOKEN via `wrangler secret put ADMIN_TOKEN` pour protéger l'admin
+# Si non défini, l'admin est ouvert (dev only)
+
+[[kv_namespaces]]
+binding = "CONFIGS"
+id = "961cc52ee98340b49a0d2a3f9a3c01da"
