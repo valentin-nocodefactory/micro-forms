@@ -8,4 +8,4 @@ compatibility_date = "2024-12-01"
 
 [[kv_namespaces]]
 binding = "CONFIGS"
-id = ""  # ← À remplir avec l'ID du KV namespace créé sur ton compte Cloudflare
+id = "e008716a1c2d4c4fa0ebf39a53bbee1a"
