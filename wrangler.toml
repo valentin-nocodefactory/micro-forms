@@ -1,6 +1,7 @@
 name = "ncf-diagnostic-admin"
 main = "src/worker.js"
 compatibility_date = "2024-12-01"
+account_id = "7fd45e21f421ce164afa0ac571238fa7"
 
 [vars]
 # Définir ADMIN_TOKEN via `wrangler secret put ADMIN_TOKEN` pour protéger l'admin
